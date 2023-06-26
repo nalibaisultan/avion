@@ -1,0 +1,17 @@
+.gallery {
+    padding-top: 28px;
+
+    &-items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-title {
+        padding: 24px 0 8px;
+    }
+
+    &-btn {
+        margin: 48px auto 40px;
+    }
+}

@@ -1,0 +1,37 @@
+@import 'vars';
+
+.idea {
+    &-items {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        margin: 60px 0;
+    }
+
+    &-item {
+        padding: 61px 75px 51px 64px;
+        background-color: $main-color;
+    }
+
+    &-item__scnd {
+        height: 478px;
+    }
+
+    &-title, &-text {
+        color: #fff;
+    }
+
+    &-title {
+        font-size: 34px;
+    }
+
+    &-text {
+        padding: 12px 0 205px;
+        font-size: 18px;
+    }
+
+    &-btn {
+        background-color: rgba(249, 249, 249, 0.15);
+        color: #fff;
+    }
+}

@@ -1,0 +1,26 @@
+@import 'vars';
+
+.hero {
+    background-image: url(../images/Hero\ Blocks\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 704px;
+    width: 100%;
+    padding: 130px 0 0 650px;
+
+    &-wrapper {
+        padding: 48px 61px 46px 56px;
+        background-color: #fff;
+        max-width: 630px;
+        height: 444px;
+    }
+
+    &-text {
+        margin-top: 20px;
+    }
+
+    &-btn {
+        margin-top: 157px;
+        display: block;
+    }
+}

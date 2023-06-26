@@ -1,0 +1,29 @@
+@import 'vars';
+
+.diferent {
+    margin-bottom: 82px;
+
+    &-title {
+        text-align: center;
+        padding: 80px 0 36px 0;
+    }
+
+    &-container {
+        display: flex;
+        gap: 22px;
+
+        &__items {
+            display: flex;
+            flex-direction: column;
+            padding: 48px;
+            width: 305px;
+            gap: 12px;
+            background-color: $color-gray;
+
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}
