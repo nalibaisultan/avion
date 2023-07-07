@@ -1,3 +1,124 @@
 {
-    "products": []
+  "products": [
+    {
+      "img": "https://cdn.domdivanov.kz/files/imgs/ig1856579/zbeqxqq3-590x430.png",
+      "title": " High chair",
+      "price": "55",
+      "descr": "Stool children's Woody yellow",
+      "height": "27",
+      "width": "27",
+      "depth": "26",
+      "id": 1
+    },
+    {
+      "img": "https://dream.org.ua/wp-content/uploads/2021/04/230997_0-1.jpg",
+      "title": "A vase for flowers",
+      "price": "12",
+      "descr": "A vase for flowers Pasabahce Perla ",
+      "height": "25",
+      "width": "12",
+      "depth": "24",
+      "id": 2
+    },
+    {
+      "img": "https://massproductions.se/wp-content/uploads/2021/04/Dandy_02.0001-2-740x925.png",
+      "title": "The Dandy Chair",
+      "price": "250",
+      "descr": "A timeless design, with premium materials features as one of our most popular and iconic pieces. The dandy chair is perfect for any stylish living space with beech legs and lambskin leather upholstery.",
+      "height": "110",
+      "width": "75",
+      "depth": "50",
+      "id": 3
+    },
+    {
+      "img": "https://www.ikea.com/gb/en/images/products/barlast-table-lamp-black-white__1032423_pe836911_s5.jpg?f=xl",
+      "title": "The Lucy Lamp",
+      "price": "150",
+      "descr": "This table lamp with a clean design assembles in a flash. And since the packaging is compact, we can fit many on the same pallet. Good for the environment – and one of the reasons behind the low price.",
+      "height": "31",
+      "width": "24",
+      "depth": "42",
+      "id": 4
+    },
+    {
+      "img": "https://media.bouclair.com/image/upload/if_!wholeprd!_in_tags/w_583,h_583,c_pad/w_700,h_700,c_lpad/if_end/w_700,h_700,c_fill,b_rgb:f6f5f3,q_70,f_auto,dpr_auto/products/images/highres/9399525",
+      "title": "Natural Wood Table Lamp",
+      "price": "87.99",
+      "descr": "Made with a round wooden base, this beautiful table lamp is topped with a warm white shade to deliver a stunning contemporary pick that's suitable for any modern interior. Place one on a side table or try a pair for symmetrical perfection in a dining room or entryway.",
+      "height": "48",
+      "width": "35",
+      "depth": "16",
+      "id": 5
+    },
+    {
+      "img": "https://api-prod.freedom.com.au/medias/24333481-LIF-1-ORIGINAL-800Wx800H?context=bWFzdGVyfGltYWdlc3wxNzUyNzd8aW1hZ2UvanBlZ3xoZGMvaGEzLzkzMDc3MTM1MDMyNjIvMjQzMzM0ODFfTElGXzFfT1JJR0lOQUxfODAwV3g4MDBIfDBiMTMxYTNlNmQyZGYzODE5NDRiYWUxNTQ3ZGI5MmJmZDVlYzcxNDg1NjRiMTkyNjE2NWRhYTdiYjA4MTkxNGE",
+      "title": "Plastics Flower Vase",
+      "price": "9.99",
+      "descr": "Products with electrical plugs are designed for use in the US. Outlets and voltage differ internationally and this product may require an adapter or converter for use in your destination. Please check compatibility before purchasing.",
+      "height": "19",
+      "width": "7",
+      "depth": "4.5",
+      "id": 6
+    },
+    {
+      "img": "https://content.la-z-boy.com/Images/product/category/white/xlarge/235401.jpg",
+      "title": " Share Allegra Chair",
+      "price": "859",
+      "descr": "Stylish stationary chair.\nWelt trim",
+      "height": "84",
+      "width": "84",
+      "depth": "90",
+      "id": 7
+    },
+    {
+      "img": "https://www.target.com.au/medias/static_content/product/images/full/85/83/A1788583.jpg?impolicy=product_portrait_hero",
+      "title": "Halo Lounge Chair",
+      "price": "150",
+      "descr": "Halo combines retro design with contemporary finishes to bring you an on-trend and comfortable arm chair. With its brushed gold metal base and round, velvet upholstered seat, this piece is comfortable while still making a design statement.",
+      "height": "76",
+      "width": "70",
+      "depth": "59",
+      "id": 8
+    },
+    {
+      "img": "https://cdn.domdivanov.kz/files/imgs/ig1856579/zbeqxqq3-590x430.png",
+      "title": " High chair",
+      "price": "55",
+      "descr": "Stool children's Woody yellow",
+      "height": "27",
+      "width": "27",
+      "depth": "26",
+      "id": 9
+    },
+    {
+      "img": "https://dream.org.ua/wp-content/uploads/2021/04/230997_0-1.jpg",
+      "title": "A vase for flowers",
+      "price": "12",
+      "descr": "A vase for flowers Pasabahce Perla ",
+      "height": "25",
+      "width": "12",
+      "depth": "24",
+      "id": 10
+    },
+    {
+      "img": "https://massproductions.se/wp-content/uploads/2021/04/Dandy_02.0001-2-740x925.png",
+      "title": "The Dandy Chair",
+      "price": "250",
+      "descr": "A timeless design, with premium materials features as one of our most popular and iconic pieces. The dandy chair is perfect for any stylish living space with beech legs and lambskin leather upholstery.",
+      "height": "110",
+      "width": "75",
+      "depth": "50",
+      "id": 11
+    },
+    {
+      "img": "https://www.ikea.com/gb/en/images/products/barlast-table-lamp-black-white__1032423_pe836911_s5.jpg?f=xl",
+      "title": "The Lucy Lamp",
+      "price": "150",
+      "descr": "This table lamp with a clean design assembles in a flash. And since the packaging is compact, we can fit many on the same pallet. Good for the environment – and one of the reasons behind the low price.",
+      "height": "31",
+      "width": "24",
+      "depth": "42",
+      "id": 12
+    }
+  ]
 }

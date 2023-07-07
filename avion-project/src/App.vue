@@ -1,15 +1,16 @@
 <template>
   <div id="app">
     <header-page></header-page>
-    <main-page></main-page>
+    <router-view></router-view>
+    <footer-page></footer-page>
   </div>
 </template>
 
 <script>
 import HeaderPage from "./modules/header/Header-page.vue";
-import MainPage from "./modules/main/Main-page.vue";
+import FooterPage from "./modules/footer/Footer-page.vue";
 export default {
-  components: { HeaderPage, MainPage },
+  components: { HeaderPage, FooterPage },
 };
 </script>
 

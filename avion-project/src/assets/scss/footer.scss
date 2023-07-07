@@ -1,0 +1,76 @@
+@import 'vars';
+
+.footer {
+    background-color: $main-color;
+
+    &-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 58px 0 48px;
+        // border-bottom: 1px solid #4E4D93;
+
+        h4 {
+            color: #fff;
+            padding-bottom: 12px;
+            font-weight: 400;
+        }
+    }
+    
+    &-items {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    &-item {
+        &__link {
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    &-nav {
+        &_scnd {
+            width: 627px;
+        }
+
+        &__items {
+            display: flex;
+            gap: 24px;
+        }
+
+        &__img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+
+    &-btn {
+        &_main input {
+            float: left;
+            width: calc(100% - 100px); 
+            padding-left: 32px;
+            height: 56px;
+        }
+    }
+
+    &-button {
+        font-size: 16px;
+        padding: 17px;
+    }
+
+    &-end {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-top: 1px solid #4E4D93;
+    }
+
+    &-head {
+        color: #fff;
+        font-size: 14px;
+        padding: 24px 0;
+    }
+}
+

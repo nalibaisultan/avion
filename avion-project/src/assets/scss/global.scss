@@ -32,6 +32,16 @@ h3 {
     color: $main-color;
 }
 
+h4 {
+    font-size: 16px;
+    color: $main-color;
+}
+
+h5 {
+    font-size: 14px;
+    color: $main-color;
+}
+
 p {
     font-family: $satoshi;
     font-size: 16px;
@@ -62,6 +72,11 @@ button {
     padding: 16px 32px;
     color: $main-color;
     font-weight: 400;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+        background-color: #d3d3d3;
+    }
 }
 
 .container {
