@@ -58,7 +58,7 @@
 export default {
   computed: {
     basketCount() {
-      return this.$store.getters.getBasket.length;
+      return this.$store.getters.getBasketCount;
     },
   },
 };

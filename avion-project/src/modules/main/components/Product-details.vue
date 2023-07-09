@@ -32,7 +32,11 @@
               </div>
             </div>
 
-            <button class="details-btn" @click="addToBasket(product)">
+            <button
+              class="details-btn"
+              @click="addToBasket(product)"
+              v-on:click="greet"
+            >
               Add to cart
             </button>
           </div>
@@ -134,9 +138,10 @@ export default {
 
   methods: {
     addToBasket(item) {
-      this.basket.push(item);
-
-      this.$store.commit("SET_BASKET", this.basket);
+      this.$store.commit("addToBasket", item);
+    },
+    greet: function () {
+      alert("This product has been added to the shopping cart");
     },
   },
 };

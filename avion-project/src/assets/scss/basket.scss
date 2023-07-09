@@ -3,51 +3,131 @@ section {
     padding: 84px 0;
 }
 
+// .basket {
+//     &-head {
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//         border-bottom: 1px solid #F9F9F9;
+//         padding-bottom: 16px;
+
+//         &__in {
+//             display: flex;
+//             gap: 130px;
+//         }
+//     }
+
+//     &-items {
+//         background-color: #fff;
+//         padding: 72px 62px 63px 54px;
+//     }
+
+//     &-main {
+//         display: flex;
+//         justify-content: space-between;
+//         padding: 28px 0;
+//         border-bottom: 1px solid #F9F9F9;
+
+//         &__in {
+//             display: flex;
+//             justify-content: center;
+//             gap: 24px;
+//         }
+
+//         &__in2 {
+//             display: flex;
+//             gap: 150px;
+//         }
+
+//         &__img {
+//             width: 109px;
+//             height: 134px;
+//         }
+
+//         &__inside {
+//             display: flex;
+//             flex-direction: column;
+//             gap: 8px;
+//             max-width: 350px;
+//         }
+//     }
+
+//     &-total {
+//         display: flex;
+//         justify-content: space-between;
+//         padding: 22px 0;
+//         align-items: center;
+//     }
+
+//     &-delete {
+//         width: 24px;
+//         height: 24px;
+
+//         &:hover {
+//             cursor: pointer;
+//         }
+//     }
+
+//     &-totalPrice {
+//         font-size: 20px;
+//     }
+// }
+
+table {
+    width: 100%;
+    border-spacing: 0 16px;
+}
+
 .basket {
     &-head {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
         border-bottom: 1px solid #F9F9F9;
         padding-bottom: 16px;
-
-        &__in {
-            display: flex;
-            gap: 292px;
-        }
     }
-    
+
     &-items {
         background-color: #fff;
         padding: 72px 62px 63px 54px;
     }
 
+    &-img {
+        width: 109px;
+        height: 134px;
+    }
+
     &-main {
+        &__descr {
+            padding: 8px 0;
+        }
+
+        &__product {
+            max-width: 637px;
+            padding: 0 100px 0 24px;
+        }
+
+        &__quantity {
+            min-width: 300px;
+            text-align: center;
+        }
+
+        &__total {
+            min-width: 200px;
+            text-align: center;
+        }
+    }
+
+    &-delete {
+        width: 24px;
+        height: 24px;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &-total {
         display: flex;
         justify-content: space-between;
-        padding-top: 28px;
-
-        &__in {
-            display: flex;
-            justify-content: center;
-            gap: 24px;
-        }
-
-        &__in2 {
-            display: flex;
-            gap: 335px;
-        }
-
-        &__img {
-            width: 109px;
-            height: 134px;
-        }
-
-        &__inside {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-            max-width: 350px;
-        }
+        padding: 22px 0;
+        align-items: center;
     }
 }
