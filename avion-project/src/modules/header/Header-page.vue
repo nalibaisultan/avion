@@ -19,7 +19,7 @@
             <li class="nav-menu__items">
               <router-link to="/basket" class="nav-menu__count">
                 <img
-                  class="nav-menu__search"
+                  class="nav-menu__basket"
                   src="@/assets/icons/Shopping--cart.svg"
                   alt=""
                 />&nbsp;{{ basketCount }}</router-link
@@ -28,7 +28,7 @@
             <li class="nav-menu__items">
               <router-link to="/admin">
                 <img
-                  class="nav-menu__search"
+                  class="nav-menu__admin"
                   src="@/assets/icons/User--avatar.svg"
                   alt=""
                 />

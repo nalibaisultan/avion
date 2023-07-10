@@ -8,11 +8,23 @@
     width: 100%;
     padding: 130px 0 0 650px;
 
+    @include sm-block() {
+        padding: 0;
+        background-image: none;
+        height: 100%;
+    }
+
     &-wrapper {
         padding: 48px 61px 46px 56px;
         background-color: #fff;
         max-width: 630px;
         height: 444px;
+
+        @include sm-block() {
+            max-width: 100%;
+            height: 100%;
+            padding: 47px 0 32px;
+        }
     }
 
     &-text {
@@ -22,5 +34,18 @@
     &-btn {
         margin-top: 157px;
         display: block;
+
+        @include sm-block() {
+            margin-top: 32px;
+        }
+    }
+
+    &-mobile {
+        display: none;
+
+        @include sm-block() {
+            display: block;
+            text-align: center;
+        }
     }
 }

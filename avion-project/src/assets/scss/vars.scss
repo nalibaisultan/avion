@@ -7,3 +7,9 @@ $color-gray: #F9F9F9;
 $h1-color: #22202E;
 $text-color: #5B5676;
 $main-color: #2A254B;
+
+@mixin sm-block() {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}

@@ -8,6 +8,10 @@
     margin: 0 auto;
     padding: 20px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    @include sm-block() {
+        border-bottom: 0 solid rgba(0, 0, 0, 0.1);
+    }
 }
 
 .nav {
@@ -19,14 +23,26 @@
         &__count {
             font-size: 16px;
         }
+
+        &__search {
+            @include sm-block() {
+                display: none;
+            }
+        }
     }
 
-    &-scnd-menu {
-        display: flex;
-        gap: 44px;
-        justify-content: center;
-        font-family: $satoshi;
-        color: #726E8D;
-        padding: 20px 0;
+    &-scnd {
+        @include sm-block() {
+            display: none;
+        }
+
+        &-menu {
+            display: flex;
+            gap: 44px;
+            justify-content: center;
+            font-family: $satoshi;
+            color: #726E8D;
+            padding: 20px 0;
+        }
     }
 }

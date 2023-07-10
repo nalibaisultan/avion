@@ -11,6 +11,9 @@
         </div>
       </div>
     </section>
+    <div class="hero-mobile">
+      <img src="../../assets/images/Frame 2.jpg" alt="" />
+    </div>
 
     <main-components></main-components>
     <main-gallery></main-gallery>
